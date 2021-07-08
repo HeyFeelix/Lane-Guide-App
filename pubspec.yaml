@@ -1,0 +1,34 @@
+name: lane_guide
+description: Primeiro App informativo com telas.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+    uses-material-design: true
+    assets:
+     - assets/images/Bottom_icon.png
+     - assets/images/jungle_icon.png
+     - assets/images/mid_icon.png
+     - assets/images/support_icon.png
+     - assets/images/top_icon.png
+     - assets/images/wild_rift.png
+
+
+
+
+
